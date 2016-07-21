@@ -19,9 +19,9 @@ All Yelp API v3 endpoints are under ``https://api.yelp.com/v3``. Following are t
 
 ## Authentication
 
-Yelp API v3 uses [OAuth2](http://oauth.net/2/) for authentication. Currently, only [client credentials](https://tools.ietf.org/html/rfc6749#section-4.4) authorization grant flow is supported. To authenticate the call to an endpoint, there are 3 steps:
+Yelp API v3 uses [The OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749). Currently, only [client credentials](https://tools.ietf.org/html/rfc6749#section-4.4) authorization grant flow is supported. To authenticate the call to an endpoint, there are 3 steps:
 
-1. Create an app with to obtain your client id and secret.
+1. Create an app to obtain your client id and secret.
 2. Use the client id and secret to get an access token.
 3. Authenticate API calls with the access token.
 
